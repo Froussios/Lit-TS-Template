@@ -2,8 +2,8 @@ import { LitElement, html, css } from "lit";
 import { customElement, property, query } from "lit/decorators.js";
 
 
-@customElement("my-element")
-export class MyElement extends LitElement {
+@customElement("root-element")
+export class RootElement extends LitElement {
     constructor() {
         super();
     }
